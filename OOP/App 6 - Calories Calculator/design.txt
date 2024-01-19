@@ -1,0 +1,10 @@
+Objects: Calorie:
+            weight
+            height
+            age
+        temperature
+        calculate()
+        Temperature:
+            Country
+            city
+            get

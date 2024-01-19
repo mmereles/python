@@ -1,0 +1,36 @@
+​​​​​​* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #ccc;
+  border-radius: 7px;
+  max-width: 250px;
+}
+
+.card img {
+  border-radius: 5px 5px 0 0;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
